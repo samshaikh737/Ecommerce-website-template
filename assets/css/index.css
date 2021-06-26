@@ -192,6 +192,161 @@ h6{
   }
  
 
+  /* /============  cloths ==================== */
+
+  
+  .cloths  .cloths-product{
+    cursor: pointer;
+    margin: 0;
+  }
+  .cloths  .cloths-product img{
+    width: 100%;
+    transition: 0.3s ease;
+  }
+  .cloths  .cloths-product img:hover{
+      opacity: 0.8;
+  }
+  .cloths  .cloths-product .rating{
+    margin-bottom: 0.5rem;
+    color: orangered;
+  }
+
+  .cloths  .cloths-product .product-about .product-title{
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 0.5rem 0;
+  }
+  .cloths .cloths-product .product-about  .cloths-product-btn{
+    background-color: orangered;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+  }
+  .cloths  .cloths-product:hover .product-about  .cloths-product-btn{
+    opacity: 1;
+    margin: 0.5rem 0;
+    transform: translateY(0px);
+  }
+
+
+  /* ====== Baneer ========== */
+  
+  .banner {
+    margin: 3rem 0;
+    width: 100%;
+    height: 60vh;
+    background: url('../img/banner/2.jpg');
+    background-position: top 70px center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .banner .banner-data{
+    color: white;
+  }
+
+  .banner .banner-btn{
+    outline: none;
+    border: none;
+    background-color: #fb774b;
+  }
+
+
+  
+  /* ======= footer ====== */
+
+  
+  .footer{
+    width: 100%;
+    background-color: #1b1b1b;
+    color: white;
+  }
+
+  .footer .footer-row{
+    margin: auto;
+  }
+
+  .footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .footer .footer-website-about img,.footer-website-about .footer-desc{
+    margin: 1rem 0;
+  }
+
+  .footer-container {
+    padding: 2rem;
+    margin-top: 3rem;
+  }
+
+  .footer-container .footer-link .footer-menu{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-container .footer-link .footer-menu  .footer-menu-link{
+    text-decoration: none;
+    color: #5e5c5c;
+    margin: 2px 0;
+    width: 20%;
+  }
+
+  .footer-contact .footer-contact-desc{
+    color: #5e5c5c;
+  }
+
+  .footer-instagram .footer-instagram-img-container{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1rem;
+  }
+
+  .footer-instagram .footer-instagram-img-container img{
+    height: 50px;
+    margin: 5px;
+  }
+
+  .footer-row > div{
+    margin: 5px auto;
+  }
+
+
+  .footer .footer-bottom-section{
+    margin: 0;
+    padding: 1.5rem 0;
+  }
+
+  .footer .footer-bottom-section .footer-bottom-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer .footer-bottom-section .footer-bottom-social .link-container{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 5px;
+  }
+
+  .footer .footer-bottom-section .footer-bottom-social .link-container i{
+    color: black;
+    font-size: 20px;
+  }
+
 
 
 /* / =========== Media for mobile ======= / */

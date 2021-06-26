@@ -1,1 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+
+
+/* ====== Title ============ */
+
+.title{
+    margin: 2rem 0;
+  }
+
+  .title .title-title{
+    font-weight: bold;
+    color: #1b1b1b;
+  }
+  .title .line{
+    border-top: 3px solid orangered;
+    width: 5%;
+    margin: 1rem auto;
+  }
+  .title .title-desc{
+    font-weight: 400;
+    color: #6b6b6b;
+  }
+
+
