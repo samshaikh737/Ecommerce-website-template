@@ -100,7 +100,7 @@
         div.className = "cloths-product Watch-prodcut col-lg-3 col-md-4 col-12 "
         div.innerHTML = `
   
-            <img src="./assets/img/Watches/${i+1}.jpg" class="img-fulid mb-2" alt="Watch-img ">
+            <img src="./assets/img/watches/${i+1}.jpg" class="img-fulid mb-2" alt="Watch-img ">
    
            <div class="cloths-product-detail Watch-product-detail text-center">
   
