@@ -1,0 +1,35 @@
+.shop-now{
+        margin-top: 6rem;
+}
+
+.shop-now .cloths-product-detail .rating{
+        font-size: 15px;
+}     
+.shop-now .product-title{
+        font-size: 17px;
+}
+.shop-now .product-price{
+        font-size: 18px;
+}
+
+@media screen and (max-width:800px) {
+
+        .shop-now .cloths-product-detail .rating{
+                font-size: 10px;
+        }     
+
+        .shop-now .product-title{
+                font-size: 14px;
+        }
+
+        .shop-now .product-price{
+                font-size: 13px;
+        }
+
+        .shop-now .c-btn{
+                font-size: 15px;
+                padding: 6px 12px;
+        }
+
+}
+
