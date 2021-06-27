@@ -13,8 +13,8 @@
     <!-- /========= static base.css ============== / -->
     <link rel="stylesheet" href="../assets/css/base.css">
 
-    <!-- /========= static shop.css ============== / -->
-    <link rel="stylesheet" href="../assets/css/shop.css">
+    <!-- /========= static product-detail .css ============== / -->
+    <link rel="stylesheet" href="../assets/css/product-detail.css">
 
     <!-- /========= Bootstrap cdn css ============== / -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -75,39 +75,98 @@
     </nav>
     <!-- /========= Navbar end ============== / -->
 
+    <!-- /========= Product-detail end ============== / -->
+    <section class="product-detail">
+        <div class="product-detail-container container">
+            <div class="product-detail-row row">
 
-    <section class="shop-now">
+                <div class="col-lg-6 col-md-12 col-12">
 
-        <div class="title text-center">
-            <div class="title-container">
-                <h3 class="title-title">Shop Now</h3>
-                <hr class="line">
-                <p class="title-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, accusamus.</p>
+                    <div class="product-img-container">
+                        <div class="main-img-container">
+                            <img src="../assets/img/shop/1.jpg" alt="product-detail" class="main-img"
+                                id="product-main-img">
+                        </div>
+                        <div class="related-img-container row mt-3">
+                            <div class="col-3">
+                                <img src="../assets/img/shop/16.jpg" alt="" class="img-fulid related-img">
+                            </div>
+                            <div class="col-3">
+                                <img src="../assets/img/shop/24.jpg" alt="" class="img-fulid related-img">
+                            </div>
+                            <div class="col-3">
+                                <img src="../assets/img/shop/16.jpg" alt="" class="img-fulid related-img">
+                            </div>
+                            <div class="col-3">
+                                <img src="../assets/img/shop/24.jpg" alt="" class="img-fulid related-img">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 col-md-12 col-12 p-0 ">
+                    <div class="product-detail-about">
+                        <p class="product-type">Home/T-shart</p>
+                        <h2 class="product-title">Men's Fashion T Shirt</h2>
+                        <h2 class="product-price">$49.99</h2>
+                        <form action="" class="product-form">
+
+                            <select class="form-select form-size" aria-label="Default select example" name="size">
+                                <option selected>Select Size</option>
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                            </select>
+
+                            <div class="add-cart-container">
+                                <input type="number" name="quantity" id="" value="1" class="product-quantity">
+                                <button class="c-btn add-cart-btn" type="submit">Add to Cart</button>
+                            </div>
+
+                        </form>
+
+                        <div class="product-desc-container">
+                            <h5 class="Product-desc-title">Product Description</h5>
+                            <p class="product-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia,
+                                atque? Laborum sit at, delectus nostrum consequuntur id, ipsum voluptas vero adipisci
+                                doloribus impedit temporibus. Nisi. Lorem ipsum dolor sit, amet consectetur adipisicing
+                                elit. Quae, non officia! Aut necessitatibus tempore velit ipsam molestiae. Non, dolor
+                                quo!</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-
-        <!-- /========= All product start ============== / -->
-        <section class="cloths allproduct">
-            <div class="cloths-container allproduct-container container-fluid">
-                <div class="cloths-row allproduct-row row mx-auto" id="allproduct-row-id">
-
-                    <!-- allproductRowData function run  -->
-                </div>
-            </div>
-        </section>
-        <!-- /========= allproduct end ============== / -->
-
-        <nav aria-label="Page navigation example " class="Page">
-          <ul class="pagination">
-            <li class="page-item "><a class="page-link" href="#">Previous</a></li>
-            <li class="page-item "><a class="page-link" href="#">1</a></li>
-            <li class="page-item "><a class="page-link" href="#">2</a></li>
-            <li class="page-item "><a class="page-link" href="#">3</a></li>
-            <li class="page-item "><a class="page-link" href="#">Next</a></li>
-          </ul>
-        </nav>
-
     </section>
+    <!-- /========= Product-detail end ============== / -->
+
+    <!-- /========= title start ============== / -->
+
+    <div class="title text-center">
+        <div class="title-container">
+            <h3 class="title-title">Dresses & Jumpsuits</h3>
+            <hr class="line">
+            <p class="title-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, accusamus.</p>
+        </div>
+    </div>
+    <!-- /========= title start ============== / -->
+
+
+
+    <!-- /========= dresses start ============== / -->
+    <section class="cloths dresses">
+        <div class="cloths-container dresses-container container">
+            <div class="cloths-row cloths-row row mx-auto" id="dresses-row-id">
+
+                <!-- clothsRowData function run  -->
+
+            </div>
+        </div>
+    </section>
+    <!-- /========= dresses end ============== / -->
+
 
 
     <!-- /======== footer end ==================/ -->
@@ -195,29 +254,8 @@
     </footer>
     <!-- /======== footer end ==================/ -->
 
-    <style>
-        .shop-now .Page{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .shop-now .cloths a{
-            text-decoration: none;
-            color: black;
-        }
-
-        .shop-now .pagination a{
-            text-decoration: none;
-            color: #1b1b1b;
-        }
-
-    </style>
-
-
-    <!-- /========= static Js shop.js ============== / -->
-
-    <script src="../assets/js/shop.js"></script>
+    <!-- /========= Static Js product-deatil.js ============== / -->
+    <script src="../assets/js/product-detail.js"></script>
 
     <!-- /========= Bootstrap cdn Js ============== / -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
